@@ -17,6 +17,7 @@ def open_file():
         txt.insert(END,text)
         window.title(f'Simple Text Editor - ',{filepath})
 
+
 def save_file():
     filepath=asksaveasfilename(defaultextension='.txt',filetypes=[("Text Files","*.txt"),("All Files","*.*")])
     if not filepath:
